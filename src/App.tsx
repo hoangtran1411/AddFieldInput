@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBan, faCartPlus, faFloppyDisk, faTrash } from '@fortawesome/free-solid-svg-icons';
 import { Alert, Button, Card, Col, Container, Form, Row, Table } from 'react-bootstrap';
 import { EquipmentRequest, EquipmentRequestItems } from './type/EquipmentType';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 
 function App() {
