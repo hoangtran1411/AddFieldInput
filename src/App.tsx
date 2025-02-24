@@ -34,8 +34,8 @@ function App() {
     RequestItems: initialRequestItems,
   });
 
-  const equipmentNameSuggestions = ['Laptop', 'Monitor', 'Keyboard', 'Mouse', 'Printer'];
-  const unitOfMeasureSuggestions = ['Each', 'Box', 'Set', 'Meter', 'Kilogram'];
+  const equipmentNameSuggestions = ['Laptop', 'Monitor', 'Keyboard', 'Mouse', 'Printer', 'Scanner', 'Projector', 'Table', 'Chair', 'Cabinet', 'Air Conditioner', 'Refrigerator', 'Water Dispenser', 'Coffee Machine', 'Microwave Oven', 'Water Heater', 'Fan', 'Light', 'Telephone', 'Mobile Phone', 'Tablet', 'Camera', 'Speaker', 'Microphone', 'Headphone', 'Television', 'Radio', 'Clock', 'Calendar', 'Whiteboard', 'Blackboard', 'Noticeboard', 'Flipchart', 'Podium', 'Stand', 'Shelf', 'Rack', 'Curtain', 'Blind', 'Carpet', 'Mat', 'Trash Can', 'Recycle Bin', 'Fire Extinguisher', 'First Aid Kit', 'Safety Sign', 'Fire Alarm', 'Smoke Detector', 'CCTV Camera', 'Access Control', 'Intercom', 'PABX', 'UPS', 'Generator', 'Water Pump', 'Water Tank', 'Water Filter', 'Water Heater', 'Water Cooler', 'Water Dispenser', 'Water Purifier', 'Water Softener', 'Water Meter', 'Water Valve', 'Water Pipe', 'Water Hose', 'Water Tap', 'Water Sprinkler', 'Water Sprayer', 'Water Gun', 'Water Bucket', 'Water Jug', 'Water Bottle', 'Water Glass', 'Water Cup', 'Water Plate', 'Water Bowl', 'Water Tray', 'Water Jug', 'Water Pitcher', 'Water Dispenser', 'Water Cooler', 'Water Purifier', 'Water Softener', 'Water Heater', 'Water Filter', 'Water Tank', 'Water Pump', 'Water Meter', 'Water Valve', 'Water Pipe', 'Water Hose', 'Water Tap', 'Water Sprinkler', 'Water Sprayer', 'Water Gun', 'Water Bucket', 'Water Jug', 'Water Bottle', 'Water Glass', 'Water Cup'];
+  const unitOfMeasureSuggestions = ['Each', 'Box', 'Set', 'Meter', 'Kilogram', 'Liter', 'Gallon', 'Dozen', 'Pair'];
 
   const handleAddItem = () => {
     setEquipmentData({
