@@ -35,6 +35,7 @@ function App() {
   });
 
   const equipmentNameSuggestions = ['Laptop', 'Monitor', 'Keyboard', 'Mouse', 'Printer'];
+  const unitOfMeasureSuggestions = ['Each', 'Box', 'Set', 'Meter', 'Kilogram'];
 
   const handleAddItem = () => {
     setEquipmentData({
@@ -184,7 +185,13 @@ function App() {
                         placeholder=" Unit"
                         value={item.UnitOfMeasure}
                         onChange={(e) => handleItemChange(index, 'UnitOfMeasure', e.target.value)}
+                        list={`unit-of-measure-suggestions-${index}`}
                       />
+                      <datalist id={`unit-of-measure-suggestions-${index}`}>
+                        {unitOfMeasureSuggestions.map((unit, i) => (
+                          <option key={i} value={unit} />
+                        ))}
+                      </datalist>
                     </td>
                     <td>
                       <Form.Control
