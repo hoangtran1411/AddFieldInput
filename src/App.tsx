@@ -12,8 +12,8 @@ function App() {
       RequestID: '',
       EquipmentName: '',
       UnitOfMeasure: '',
-      Quantity: '',
-      EstimatedPrice: '',
+      Quantity: '1',
+      EstimatedPrice: '0',
       CurrentStatus: '',
       ItemNotes: '',
     },
@@ -47,8 +47,8 @@ function App() {
           RequestID: '',
           EquipmentName: '',
           UnitOfMeasure: '',
-          Quantity: '',
-          EstimatedPrice: '',
+          Quantity: '1',
+          EstimatedPrice: '0',
           CurrentStatus: '',
           ItemNotes: '',
         },
@@ -123,6 +123,7 @@ function App() {
                   <option value="">Select Request Type</option>
                   <option value="Purchase">Purchase</option>
                   <option value="Repair">Repair</option>
+                  <option value="Reserve">Reserve</option>
                 </Form.Select>
               </Col>
             </Form.Group>
